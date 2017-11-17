@@ -1,0 +1,131 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3684c741750915ea5ac6241827417133",
+    "packages": [
+        {
+            "name": "amabnl/amadeus-ws-client",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/amabnl/amadeus-ws-client.git",
+                "reference": "705b0abb8b9b9a803eabd81fda0987c6991ad5e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/amabnl/amadeus-ws-client/zipball/705b0abb8b9b9a803eabd81fda0987c6991ad5e2",
+                "reference": "705b0abb8b9b9a803eabd81fda0987c6991ad5e2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-soap": "*",
+                "ext-xsl": "*",
+                "php": ">=5.4",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpdocumentor/reflection-docblock": "2.0.*",
+                "phpunit/phpunit": "4.8.*",
+                "symfony/yaml": "2.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Amadeus\\": "src/Amadeus"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dieter Devlieghere",
+                    "email": "dieter.devlieghere@gmail.com",
+                    "homepage": "http://dermika.be",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "SOAP Web Service client library for interacting with the Amadeus GDS through its SOAP interface",
+            "homepage": "https://github.com/amabnl/amadeus-ws-client",
+            "keywords": [
+                "airline",
+                "amadeus",
+                "booking",
+                "car",
+                "client",
+                "gds",
+                "hotel",
+                "masterpricer",
+                "offer",
+                "rental",
+                "service",
+                "soap",
+                "travel",
+                "webservice",
+                "wsdl",
+                "xml"
+            ],
+            "time": "2017-11-05T08:54:52+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "beta",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "appletechlabs/amadeushandler",
+  "description": "Amadeus Handler library for all in one flight API",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "beta",    
+  "authors": [
+    {
+      "name": "Supun Praneeth",
+      "email": "spmsupun@gmail.com"
+    },
+    {
+      "name": "Arosha De Silva",
+      "email": "aroshajayasanka@gmail.com"
+    }
+  ],
+  "require": {
+    "amabnl/amadeus-ws-client": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "appletechlabs\\amadeushandler\\": "src"
+    }
+  }
+}
